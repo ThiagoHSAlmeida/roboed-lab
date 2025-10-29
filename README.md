@@ -1,4 +1,4 @@
-O RoboEd Lab é uma plataforma interativa de tecnologia educacional e robótica que conecta professores e estudantes em um ambiente dinâmico de aprendizagem.
+O RoboEd Lab é um protótipo de plataforma interativa de tecnologia educacional e robótica que conecta professores e estudantes em um ambiente dinâmico de aprendizagem.
 Com um banco de aulas teóricas e práticas, o app permite que usuários selecionem os componentes que possuem e recebam projetos personalizados compatíveis com seus materiais.
 
 Além disso, o RoboEd Lab oferece:
