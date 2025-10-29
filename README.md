@@ -1,20 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+O RoboEd Lab é uma plataforma interativa de tecnologia educacional e robótica que conecta professores e estudantes em um ambiente dinâmico de aprendizagem.
+Com um banco de aulas teóricas e práticas, o app permite que usuários selecionem os componentes que possuem e recebam projetos personalizados compatíveis com seus materiais.
 
-# Run and deploy your AI Studio app
+Além disso, o RoboEd Lab oferece:
 
-This contains everything you need to run your app locally.
+Sugestões interdisciplinares integrando robótica a diferentes áreas do conhecimento (Matemática, Ciências, História, Artes e muito mais).
 
-View your app in AI Studio: https://ai.studio/apps/drive/1vBKIIODs_OAtC8l8aslXjxAapJ91Of12
+Suporte a arquivos e planilhas, permitindo organizar e importar conteúdos já existentes.
 
-## Run Locally
+Inteligência Artificial integrada, que lê, organiza e classifica conteúdos de forma automática, vinculando-os a séries, anos escolares e habilidades da BNCC.
 
-**Prerequisites:**  Node.js
+Um espaço de colaboração entre professores, turmas e escolas para criação de trilhas de aprendizagem personalizadas.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Tudo isso com recursos de acessibilidade, gamificação e curadoria de plataformas gratuitas, transformando cada aula em uma experiência prática, criativa e envolvente.
