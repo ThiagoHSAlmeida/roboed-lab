@@ -1,0 +1,5 @@
+{
+  "name": "EduRoboLab",
+  "description": "An application for managing technology and robotics classes and projects, with features for curriculum management, file ingestion with AI-powered semantic indexing, and curriculum-based filtering.",
+  "requestFramePermissions": []
+}

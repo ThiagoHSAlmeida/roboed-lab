@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Define o idioma do documento como Português do Brasil, o que é importante para acessibilidade e SEO. -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Link para o ícone da aba do navegador (favicon). -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Configura a viewport para que o site seja responsivo e se adapte a diferentes tamanhos de tela (celulares, tablets, desktops). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título que aparece na aba do navegador. -->
+    <title>EduRoboLab</title>
+    
+    <!-- Importa o Tailwind CSS via CDN (Content Delivery Network). -->
+    <!-- Tailwind é um framework de CSS "utility-first" que nos permite estilizar componentes diretamente no HTML/JSX. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Importa a fonte 'Inter' do Google Fonts para uma tipografia mais agradável. -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bloco de estilo para aplicar a fonte importada ao corpo do documento. -->
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+
+    <!--
+      IMPORT MAP:
+      Este bloco é crucial para o ambiente de desenvolvimento sem um "bundler" como Webpack ou Vite.
+      Ele diz ao navegador como resolver os imports de módulos ES6.
+      Por exemplo, quando o código fizer `import React from 'react'`, o navegador saberá que deve buscar o arquivo na URL especificada aqui.
+      Isso simplifica o setup, permitindo usar imports modernos diretamente no navegador.
+    -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+          "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "react": "https://aistudiocdn.com/react@^19.2.0"
+        }
+      }
+    </script>
+  </head>
+  <!-- 
+    Corpo do documento.
+    As classes do Tailwind CSS são aplicadas para definir estilos básicos como cor de fundo e cor do texto,
+    incluindo suporte para o modo escuro (dark mode).
+  -->
+  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <!-- 
+      Este é o elemento "raiz" (root). 
+      Toda a aplicação React será injetada dentro desta div pelo JavaScript (ver `index.tsx`).
+    -->
+    <div id="root"></div>
+  </body>
+</html>
